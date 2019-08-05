@@ -1,5 +1,18 @@
 {
   "@context": {
+    "@vocab": "http://happy-dev.fr/owl/#",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "deadline": "xsd:dateTime",
+    "lat": "geo:lat",
+    "lng": "geo:long",
+    "jabberID": "foaf:jabberID",
+    "permissions": "acl:accessControl",
+    "view": "acl:Read",
+    "change": "acl:Write",
+    "add": "acl:Append",
+    "delete": "acl:Delete",
+    "control": "acl:Control",
     "acl":    "http://www.w3.org/ns/auth/acl#",
     "app":    "http://www.w3.org/ns/solid/app#",
     "as":     "https://www.w3.org/ns/activitystreams#",
